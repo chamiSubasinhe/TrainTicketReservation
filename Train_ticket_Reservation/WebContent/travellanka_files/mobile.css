@@ -1,0 +1,1198 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 980px) {
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	
+	
+.sbcripe-text p {
+	line-height: 16px;
+font-size: 13px;
+}
+	    
+
+		.inner-wrapp {
+		height: 330px;
+		}
+	
+	
+	.home_box_image_content {
+margin-bottom: 20px;
+	}
+	
+	.home_box_image_content_wrapp {
+padding: 3px;
+margin-right: 20px;
+margin-left: 4px;
+	}
+	/*home left*/
+	
+	.logo-wrapper{
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+	.share-this-button{
+	width:100%;	
+	}
+.header-wrapper{
+position:relative !important;
+}
+.main-header{
+	width:100%;	
+}
+
+
+.main-header {
+		width:100%;
+		position: relative;
+		background: #0072b9;
+		z-index: 10;
+		min-height: 100px;
+}
+	
+	
+div.logo {
+		margin-left: 10px;
+margin-top: 18px;
+		position: absolute;
+}
+	
+nav.main-menu {
+padding-left: 60px;
+padding-top: 100px;
+position: absolute;
+display:none;
+}
+
+.search-form-wrapper {
+padding-right: 15px;
+padding-top: 60px;
+}
+
+#colophon, #branding, #main, #wrapper {
+margin: 0 auto;
+width: 98%;
+}
+
+
+#menu_header{
+display:block;	
+}
+#wrapper {
+background: #fff;
+margin-top: 0px;
+padding: 0 10px;
+}
+
+/***/
+.home-image-left img{
+width:100%;
+height:auto;
+}
+
+.home-image-right {
+float: left;
+width: 100% !important;
+}
+
+
+.single-block-wrapper{
+height:322px;
+
+}
+.touring-ltinerary-block{
+	
+}
+
+.single-block-content {
+width: 214px;
+padding: 0px 4px;
+}
+
+.single-block-wrapper-main {
+overflow: none;
+width:auto;
+-webkit-overflow-scrolling: touch;
+}
+
+
+#footer {
+clear: both;
+width: 100%;
+margin: 0 auto;
+}
+
+
+/***/
+.footer-menu{
+padding-bottom: 0px;	
+}
+.footer-menu-wrapper {
+width: 100%;
+margin: 0 auto;
+text-align: left;
+}
+
+#menu-footer li {
+list-style: none;
+float: none;
+}
+
+
+
+
+#menu-footer {
+	margin: 0 0 0px 0em;
+}
+
+#menu-footer li {
+border-bottom:1px solid #333;	
+padding: 6px 0px;
+}
+
+#menu-footer li#menu-item-158 {
+border-bottom:0px solid #333;	
+}
+
+#menu-footer li a {
+display: block;
+padding: 0 12px;
+}
+
+/*.deals-page-image*/
+.deals-page-image{
+width:100% !important;	
+}
+
+/*****/
+
+.srilanka-page-image{
+width:100%;	
+}
+.srilanka-page-image img{
+width:100%;
+height:auto;
+}
+
+/****/
+.sri-lanka-page-map{
+width:98%;	
+}
+#map_canvas{
+width:100%  !important;	
+}
+
+/***/
+
+	.touring-page-slider{
+	width:100%;	
+	}
+	.touring-page-slider img{
+		width:100%;
+	}
+	
+	/*new*/
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+/*new*/
+
+
+/***/
+
+.srilanka{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.srilanka-wrapper{
+	width:100%;
+	margin:0 auto;
+	padding-bottom:10px;
+	overflow:hidden;
+}
+
+.srilanka-images{
+	float:left;
+	width:30%;
+	padding-right:3%;
+	margin-top:6%;
+}
+.srilanka-images img{
+width:100%;
+height:auto;
+}
+
+.srilanka-content{
+	float:left;
+	width:60%;
+	margin-top:0%;
+	
+}
+}
+
+@media screen and (max-width: 768px) {
+	
+	 
+
+		.inner-wrapp {
+		height: 330px;
+		}
+	
+	
+	
+	
+	/*
+	.inner-wrapp {
+width: 705px;
+height: 330px;
+}*/
+	
+	.home_box_image_content_wrapp {
+padding: 3px;
+margin-right: 4px;
+margin-left: 4px;
+}
+
+	.home-image-left {
+		width:100%;
+	}
+	
+	.touring-page-slider{
+	width:100%;	
+	}
+	.touring-page-slider img{
+		width:100%;
+	}
+	
+	
+	/*new*/
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+/*new*/
+}
+
+@media screen and (max-width: 650px) {
+	.single-block-content {
+width: 210px;
+	}
+	/*
+	.inner-wrapp {
+width: 705px;
+height: 330px;
+}*/
+	.home_box_image_content {
+margin-top: -72px;
+	}
+	.rslides_container {
+display: block;
+}
+.main-header {
+width: 100%;
+position: relative;
+background: #0072b9;
+z-index: 10;
+min-height: 100px;
+}
+
+div.logo {
+position: absolute;
+width:100%;
+}
+
+nav.main-menu{
+display:none;	
+}
+
+.logo-wrapper{
+	text-align:left;
+	padding-left:0px !important;
+	padding-top:0px;
+}
+
+#wrapper {
+background: #fff;
+margin-top: 0px;
+padding: 0px;
+}
+
+.logo-wrapper img{
+width:40%;
+height:auto;
+}
+
+.search-form-wrapper {
+padding-right: 10px !important;
+padding-top: 60px !important;
+}
+
+#primary, #secondary {
+float: none;
+overflow: hidden;
+width: 100%;
+background-color: #EFEBE4;
+min-height: 100%;
+margin-top: 15px;
+}
+
+
+#container {
+float: none;
+margin: 0;
+width: 100%;
+}
+
+#content {
+margin: 0 auto;
+width: 100%;
+
+}
+.home-image-left {
+width:100%;	
+}
+
+.home-image-left img{
+width:100%;
+height:auto;
+}
+.home-image-right {
+float: left !important;
+width: 100% !important;
+
+}
+
+.single-block-wrapper {
+margin: 0 auto;
+width: 220px;
+
+overflow: hidden;
+}
+
+.single-block-one {
+	
+	margin-bottom:15px;
+}
+
+.footer-menu-wrapper {
+width: 100%;
+margin: 0 auto;
+}
+#menu-footer li {
+list-style: none;
+float: none;
+}
+.footer-menu {
+padding-top: 15px;
+padding-bottom: 0px;
+}
+.footer-text{
+width:98%;
+margin:0 auto;
+}
+.breadcrumbs {
+width: 100%;
+margin: 0 auto;
+}
+
+.deals-page-image img{
+	width:100%;
+}
+.request-quote{
+display:none;	
+}
+
+.srilanka-page-image{
+width:100%;	
+}
+.srilanka-page-image img{
+width:100%;
+height:auto;
+}
+
+.deals-page-image {
+
+width: 100%;
+}
+
+
+
+#menu_header{
+display:block;	
+}
+
+#footer {
+clear: both;
+width: 100%;
+margin: 0 auto;
+}
+
+
+/*new*/
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+/*new*/
+	
+}
+
+@media screen and (max-width: 568px) {
+	/*
+	.inner-wrapp {
+width: 705px;
+height: 330px;
+}*/
+	.home_box_image_content {
+margin-top: -72px;
+	}
+	
+	.rslides_container{
+	display:block;	
+	}
+
+
+.main-header {
+width: 100%;
+position: relative;
+background: #0072b9;
+z-index: 10;
+min-height: 120px;
+}
+
+div.logo {
+position: absolute;
+width:100%;
+}
+
+nav.main-menu{
+display:none;	
+}
+
+.logo-wrapper{
+	text-align:left;
+}
+
+#wrapper {
+background: #fff;
+margin-top: 0px;
+padding: 0px;
+}
+
+#colophon, #branding, #main, #wrapper {
+margin: 0 auto;
+width: 100%;
+}
+
+.logo-wrapper img{
+width:50%;
+height:auto;
+}
+
+.search-form-wrapper {
+padding-right: 00px !important;
+padding-top: 75px !important;
+}
+
+#primary, #secondary {
+float: none;
+overflow: hidden;
+width: 100%;
+background-color: #EFEBE4;
+min-height: 100%;
+margin-top: 15px;
+}
+
+
+#container {
+float: none;
+margin: 0;
+width: 100%;
+}
+
+#content {
+margin: 0 auto;
+width: 98%;
+
+}
+.home-image-left {
+width: 100%;
+}
+
+.home-image-left img{
+width:100%;
+height:auto;
+}
+.home-image-right {
+float: left !important;
+width: 100% !important;
+
+}
+
+.single-block-wrapper {
+margin: 0 auto;
+width: 220px;
+
+overflow: hidden;
+}
+
+.single-block-one {
+	
+	margin-bottom:15px;
+}
+
+.footer-menu-wrapper {
+width: 100%;
+margin: 0 auto;
+}
+#menu-footer li {
+list-style: none;
+float: none;
+}
+.footer-menu {
+padding-top: 15px;
+padding-bottom: 0px;
+}
+.footer-text{
+width:98%;
+margin:0 auto;
+}
+.breadcrumbs {
+width: 97%;
+margin: 0 auto;
+}
+
+.deals-page-image img{
+	width:100%;
+}
+.request-quote{
+display:none;	
+}
+
+.srilanka-page-image{
+width:100%;	
+}
+.srilanka-page-image img{
+width:100%;
+height:auto;
+}
+
+.deals-page-image {
+
+width: 100%;
+}
+
+
+
+#menu_header{
+display:block;	
+}
+
+#footer {
+clear: both;
+width: 100%;
+margin: 0 auto;
+}
+
+.search-field {
+
+width: 150px;
+}
+
+/*new*/
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+/*new*/
+
+}
+
+
+@media screen and (max-width: 466px) {
+	.search-part {
+right: 0px;
+float: right;
+position: absolute;
+z-index: 9999;
+}
+.search-form-wrapper {
+padding-right: 17px !important;
+padding-top: 93px !important;
+}
+
+.main-header {
+
+min-height: 130px;
+}
+
+
+/*new*/
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+/*new*/
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+	/*
+	.inner-wrapp {
+width: 705px;
+height: 330px;
+}*/
+	
+	.home_box_image_content {
+margin-top: 0px;
+	}
+	
+	.search-field {
+background:none;
+background-repeat: no-repeat;
+background:#FFF;
+height: 23px;
+width: 275px;
+border: 0px;
+outline: none;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 4px;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 4px;
+}
+
+
+.search-submit {
+	cursor:pointer;
+background: #fff url(images/Search-icon.png);
+background-repeat: no-repeat;
+background-position:center;
+width: 41px;
+height: 23px;
+/*border: 0px;*/
+border-left:1px solid #E2E2E2;
+border-bottom:0px; 
+border-right:0px;
+border-top:0px;
+text-indent: -9999px;
+outline: none;
+margin-left: -10px;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+}
+
+
+.main-header {
+width: 100%;
+position: relative;
+background: #0072b9;
+z-index: 10;
+min-height: 122px;
+}
+
+.breadcrumbs {
+width: 94%;
+margin: 0 auto;
+}
+
+.search-form-wrapper {
+padding-right: 17px !important;
+padding-top: 90px !important;
+}
+.search-w {
+width: 100%;
+}
+
+
+.logo-wrapper {
+
+padding-top: 5px;
+}
+
+.logo-wrapper img {
+width: 55% !important;
+
+height: auto;
+}
+#menu_header{
+display:block;	
+}
+
+#content {
+margin: 0 auto;
+width: 95%;
+}
+
+#footer {
+clear: both;
+width: 100%;
+margin: 0 auto;
+}
+
+.sidebar-ad {
+margin: 0 auto;
+width: 88%;
+overflow: hidden;
+}
+
+.single-block-content {
+width: 210px;
+
+}
+
+/*new*/
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+/*new*/
+
+}
+
+@media screen and (max-width: 320px) {
+	
+	.newsletter-sign-up-wrapper input[type="text"], input[type="email"] {
+height: 19px;
+
+	}
+	
+	.newsletter-sign-up-wrapper .knewsbutton {
+border:0px	;
+background:url(http://travellanka.lk/wp-content/uploads/2014/01/siguup_button.png);
+background-repeat:no-repeat;
+/*background:#ff441c;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0;
+
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0;
+*/
+outline:none;
+color:#fff;
+height: 23px;
+width: 60px;
+text-indent: -9999px;
+cursor:pointer;
+}
+	
+	.hero__search__submit--field{
+	display:block;	
+	}
+	.search-submit{
+	display:none;	
+	}
+	.sbcripe-content-wrapper
+	{
+	top:-128px;	
+	}
+	/*
+	.inner-wrapp {
+width: 705px;
+height: 330px;
+}*/
+	
+	.search-field {
+background:none;
+background-repeat: no-repeat;
+background:#FFF;
+height: 23px;
+width: 255px;
+border: 0px;
+outline: none;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 4px;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 4px;
+}
+
+/**new xode**/
+
+.search-submit {
+	cursor:pointer;
+/*background: #fff url(images/Search-icon.png);*/
+
+background: #fff url('data:image/svg+xml;charset=US-ASCII,<svg%20width%3D"15"%20height%3D"130"%20viewBox%3D"0%200%2015%20130"%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20xmlns%3Asketch%3D"http%3A%2F%2Fwww.bohemiancoding.com%2Fsketch%2Fns"><title>search<%2Ftitle><g%20sketch%3Atype%3D"MSPage"%20fill%3D"none"><path%20d%3D"M14.685%2081.731l-3.599-3.6c.543-.893.855-1.939.855-3.059%200-3.254-2.82-6.073-6.074-6.073-3.253%200-5.89%202.637-5.89%205.892%200%203.256%202.82%206.074%206.073%206.074%201.082%200%202.096-.293%202.967-.804l3.616%203.62c.355.354.928.354%201.282%200l.898-.897c.355-.355.227-.799-.128-1.153zm-12.896-6.84c0-2.254%201.828-4.079%204.078-4.079%202.254%200%204.262%202.007%204.262%204.26%200%202.253-1.825%204.079-4.08%204.079-2.252%200-4.26-2.006-4.26-4.26zm0%200"%20fill%3D"%23206FAC"%20sketch%3Atype%3D"MSShapeGroup"%2F><path%20d%3D"M14.663%2058.692l-3.588-3.589c.542-.89.852-1.933.852-3.049%200-3.244-2.811-6.054-6.055-6.054-3.243%200-5.872%202.629-5.872%205.873%200%203.245%202.811%206.055%206.054%206.055%201.079%200%202.089-.292%202.958-.802l3.605%203.608c.354.353.925.353%201.278%200l.895-.895c.354-.354.226-.796-.127-1.149zm-12.856-6.818c0-2.247%201.823-4.066%204.065-4.066%202.247%200%204.249%202.001%204.249%204.247s-1.82%204.066-4.067%204.066c-2.245%200-4.247-2-4.247-4.247zm0%200"%20fill%3D"%23fff"%20sketch%3Atype%3D"MSShapeGroup"%2F><path%20d%3D"M14.663%2035.692l-3.588-3.589c.542-.89.852-1.933.852-3.049%200-3.244-2.811-6.054-6.055-6.054-3.243%200-5.872%202.629-5.872%205.873%200%203.245%202.811%206.055%206.054%206.055%201.079%200%202.089-.292%202.958-.802l3.605%203.608c.354.353.925.353%201.278%200l.895-.895c.354-.354.226-.796-.127-1.149zm-12.856-6.818c0-2.247%201.823-4.066%204.065-4.066%202.247%200%204.249%202.001%204.249%204.247s-1.82%204.066-4.067%204.066c-2.245%200-4.247-2-4.247-4.247zm0%200"%20fill%3D"%2367737B"%20sketch%3Atype%3D"MSShapeGroup"%2F><path%20d%3D"M14.663%2012.692l-3.588-3.589c.542-.89.852-1.933.852-3.049%200-3.244-2.811-6.054-6.055-6.054-3.243%200-5.872%202.629-5.872%205.873%200%203.245%202.811%206.055%206.054%206.055%201.079%200%202.089-.292%202.958-.802l3.605%203.608c.354.353.925.353%201.278%200l.895-.895c.354-.354.226-.796-.127-1.149zm-12.856-6.818c0-2.247%201.823-4.066%204.065-4.066%202.247%200%204.249%202.001%204.249%204.247s-1.82%204.066-4.067%204.066c-2.245%200-4.247-2-4.247-4.247zm0%200"%20fill%3D"%233A434E"%20sketch%3Atype%3D"MSShapeGroup"%2F><%2Fg><%2Fsvg>');
+background-repeat: no-repeat;
+background-position:right;
+width: 41px;
+height: 23px;
+/*border: 0px;*/
+border-left:1px solid #E2E2E2;
+border-bottom:0px; 
+border-right:0px;
+border-top:0px;
+text-indent: -9999px;
+outline: none;
+margin-left: -10px;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+}
+
+/*new*/
+	.hero__search__icon {
+display: inline-block;
+border: 0;
+text-indent: -999em;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+text-align: left;
+direction: ltr;
+}
+
+.icon--search {
+background-image: url('data:image/svg+xml;charset=US-ASCII,<svg%20width%3D"15"%20height%3D"130"%20viewBox%3D"0%200%2015%20130"%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20xmlns%3Asketch%3D"http%3A%2F%2Fwww.bohemiancoding.com%2Fsketch%2Fns"><title>search<%2Ftitle><g%20sketch%3Atype%3D"MSPage"%20fill%3D"none"><path%20d%3D"M14.685%2081.731l-3.599-3.6c.543-.893.855-1.939.855-3.059%200-3.254-2.82-6.073-6.074-6.073-3.253%200-5.89%202.637-5.89%205.892%200%203.256%202.82%206.074%206.073%206.074%201.082%200%202.096-.293%202.967-.804l3.616%203.62c.355.354.928.354%201.282%200l.898-.897c.355-.355.227-.799-.128-1.153zm-12.896-6.84c0-2.254%201.828-4.079%204.078-4.079%202.254%200%204.262%202.007%204.262%204.26%200%202.253-1.825%204.079-4.08%204.079-2.252%200-4.26-2.006-4.26-4.26zm0%200"%20fill%3D"%23206FAC"%20sketch%3Atype%3D"MSShapeGroup"%2F><path%20d%3D"M14.663%2058.692l-3.588-3.589c.542-.89.852-1.933.852-3.049%200-3.244-2.811-6.054-6.055-6.054-3.243%200-5.872%202.629-5.872%205.873%200%203.245%202.811%206.055%206.054%206.055%201.079%200%202.089-.292%202.958-.802l3.605%203.608c.354.353.925.353%201.278%200l.895-.895c.354-.354.226-.796-.127-1.149zm-12.856-6.818c0-2.247%201.823-4.066%204.065-4.066%202.247%200%204.249%202.001%204.249%204.247s-1.82%204.066-4.067%204.066c-2.245%200-4.247-2-4.247-4.247zm0%200"%20fill%3D"%23fff"%20sketch%3Atype%3D"MSShapeGroup"%2F><path%20d%3D"M14.663%2035.692l-3.588-3.589c.542-.89.852-1.933.852-3.049%200-3.244-2.811-6.054-6.055-6.054-3.243%200-5.872%202.629-5.872%205.873%200%203.245%202.811%206.055%206.054%206.055%201.079%200%202.089-.292%202.958-.802l3.605%203.608c.354.353.925.353%201.278%200l.895-.895c.354-.354.226-.796-.127-1.149zm-12.856-6.818c0-2.247%201.823-4.066%204.065-4.066%202.247%200%204.249%202.001%204.249%204.247s-1.82%204.066-4.067%204.066c-2.245%200-4.247-2-4.247-4.247zm0%200"%20fill%3D"%2367737B"%20sketch%3Atype%3D"MSShapeGroup"%2F><path%20d%3D"M14.663%2012.692l-3.588-3.589c.542-.89.852-1.933.852-3.049%200-3.244-2.811-6.054-6.055-6.054-3.243%200-5.872%202.629-5.872%205.873%200%203.245%202.811%206.055%206.054%206.055%201.079%200%202.089-.292%202.958-.802l3.605%203.608c.354.353.925.353%201.278%200l.895-.895c.354-.354.226-.796-.127-1.149zm-12.856-6.818c0-2.247%201.823-4.066%204.065-4.066%202.247%200%204.249%202.001%204.249%204.247s-1.82%204.066-4.067%204.066c-2.245%200-4.247-2-4.247-4.247zm0%200"%20fill%3D"%233A434E"%20sketch%3Atype%3D"MSShapeGroup"%2F><%2Fg><%2Fsvg>');
+background-repeat: no-repeat;
+background-position: 5px 4px;
+}
+
+.hero__search__submit--field {
+	
+margin-left: -10px;
+border: 0;
+border-bottom:0;
+border-top:0;
+border-left:1px solid #EFEFEF;
+border-right:0;
+
+cursor: pointer;
+height: 23px;
+background: #fff;
+outline:none;
+
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 0px;
+
+}
+
+.hero__search__icon {
+width: 20px;
+height: 20px;
+opacity: 0.2;
+}
+
+/**new**/
+	
+	
+.main-header {
+min-height: 120px;
+}
+	
+#colophon, #branding, #main, #wrapper {
+margin: 0 auto;
+width: 100%;
+}
+	.rslides_container{
+	display:block;	
+	}
+	
+	.sidebar-ad {
+margin: 0 auto;
+width: 99%;
+	}
+	header.main-header {
+width: 100%;
+position: relative;
+background: #0072b9;
+z-index: 10;
+min-height: 142px;
+}
+
+div.logo {
+position: absolute;
+}
+
+nav.main-menu{
+display:none;	
+}
+
+.logo-wrapper{
+	text-align:left;
+}
+
+#wrapper {
+background: #fff;
+margin-top: 0px;
+padding: 0px;
+}
+
+.logo-wrapper img{
+width:55% !important;
+height:auto;
+}
+
+.search-form-wrapper {
+padding-right: 12px !important;
+padding-top: 85px !important;
+}
+
+#primary, #secondary {
+float: none;
+overflow: hidden;
+width: 100%;
+background-color: #EFEBE4;
+min-height: 100%;
+margin-top: 15px;
+}
+
+
+#container {
+float: none;
+margin: 0;
+width: 100%;
+}
+
+#content {
+margin: 0 auto;
+width: 90%;
+
+}
+
+.home-image-left img{
+width:100%;
+height:auto;
+}
+.home-image-right {
+float: left !important;
+width: 100% !important;
+
+}
+
+.single-block-wrapper {
+margin: 0 auto;
+width: 220px;
+
+overflow: hidden;
+}
+
+.single-block-one {
+	
+	margin-bottom:15px;
+}
+
+.footer-menu-wrapper {
+width: 100%;
+margin: 0 auto;
+}
+#menu-footer li {
+list-style: none;
+float: none;
+}
+.footer-menu {
+padding-top: 15px;
+padding-bottom: 0px;
+}
+.footer-text{
+width:98%;
+margin:0 auto;
+}
+.breadcrumbs {
+width: 90%;
+margin: 0 auto;
+}
+
+.deals-page-image{
+width:100%;	
+}
+.deals-page-image img{
+	width:100%;
+}
+.request-quote{
+display:none;	
+}
+
+.srilanka-page-image{
+width:100%;	
+}
+.srilanka-page-image img{
+width:100%;
+height:auto;
+}
+
+
+#menu_header{
+display:block;	
+}
+
+#footer {
+clear: both;
+width: 100%;
+margin: 0 auto;
+}
+
+
+.sbcripe-text p {
+	line-height: 16px;
+font-size: 13px;
+}
+
+.srilanka-images {
+margin-top: 0%;
+}
+
+}

@@ -1,0 +1,179 @@
+function gtetot()
+{
+var xmlhttp;
+if(document.getElementById("from").value==0)
+{
+	alert('select a from station');
+}
+else if(document.getElementById("to").value==0)
+{
+	alert('select a to station');
+}
+else if(isNaN(document.getElementById("amount").value) || (document.getElementById("amount").value==''))
+{
+	alert('Enter a valid amount');
+}
+else{
+if (window.XMLHttpRequest)
+  {
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("search1").innerHTML=xmlhttp.responseText;
+	alert(xmlhttp.responseText);
+	
+    }
+  }
+var from=document.getElementById("from").value;
+var to=document.getElementById("to").value;
+var amount=document.getElementById("amount").value;
+xmlhttp.open("GET","index2.php?option=com_gettot&task=gettot&to="+to+"&from="+from+"&amount="+amount+"&special_items="+document.getElementById("special_items").value+"&train_type="+document.getElementById("train_type").value,true);
+xmlhttp.send();
+}
+}
+
+function getto()
+{
+var xmlhttp;
+
+if (window.XMLHttpRequest)
+  {
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("to").innerHTML=xmlhttp.responseText;
+	
+    }
+  }
+var from=document.getElementById("from").value;
+xmlhttp.open("GET","index2.php?option=com_gettot&task=getto&from="+from,true);
+xmlhttp.send();
+}
+
+function gtetotal(lang)
+{
+	var from = document.getElementById('from').value;
+	var to = document.getElementById('to').value;
+	var iType = document.getElementById('special_items').value;
+	var tType = document.getElementById('train_type').value;
+	var weight = document.getElementById('amount').value;
+	
+	if(from == 0)
+	{
+		if(lang == 'si')
+		{
+			//alert('කරුණාකර ආරම්බක දුම්රිය ස්ථානය තෝරන්න');
+		}
+		else if(lang == 'si')
+		{
+			//alert('Please Selet From Station');
+		}
+		else
+		{
+			//alert('Please Selet From Station');
+		}
+		
+		document.getElementById('from').focus();
+		
+		return;
+	}
+	else if(to == 0)
+	{
+		if(lang == 'si')
+		{
+			//alert('කරුණාකර ගමනාන්ත දුම්රිය ස්ථානය තෝරන්න');
+		}
+		else if(lang == 'si')
+		{
+			//alert('Please Selet To Station');
+		}
+		else
+		{
+			//alert('Please Selet To Station');
+		}
+		
+		document.getElementById('to').focus();
+		
+		return;
+	}
+	else if(from == to)
+	{
+		if(lang == 'si')
+		{
+			alert('ආරම්බක සහ අවසාන දුම්රිය ස්ථාන එකම විය නොහැක');
+		}
+		else if(lang == 'si')
+		{
+			alert('From Station and To Station cannot be same');
+		}
+		else
+		{
+			alert('From Station and To Station cannot be same');
+		}
+		
+		document.getElementById("search1").innerHTML = "";
+		
+		document.getElementById('to').focus();
+		
+		return;
+	}
+	else if(weight != '' && isNaN(weight))
+	{
+		if(lang == 'si')
+		{
+			alert('කරුණාකර භාණ්ඩයේ බර නිවැරදිව ඇතුල් කරන්න');
+		}
+		else if(lang == 'si')
+		{
+			alert('Please Enter valid Item Weight');
+		}
+		else
+		{
+			alert('Please Enter valid Item Weight');
+		}
+		
+		document.getElementById('amount').value = '';
+		document.getElementById('amount').focus();
+		
+		return;
+	}
+	
+	document.getElementById("search1").innerHTML = "";
+	
+	var xmlhttp;
+	
+	if (window.XMLHttpRequest)
+	{
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	
+	xmlhttp.onreadystatechange=function()
+	{
+		if(xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			document.getElementById("search1").innerHTML=xmlhttp.responseText;
+		}
+	}
+	
+	xmlhttp.open("POST","index2.php?option=com_gettot&task=gettot&to="+to+"&from="+from+"&amount="+weight+"&special_items="+iType+"&train_type="+tType+"&lang="+lang,true);
+	
+	xmlhttp.send();
+}
